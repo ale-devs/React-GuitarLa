@@ -1,4 +1,4 @@
-export default function Guitar({guitar, addToCart}){
+export default function Guitar({guitar, addToCart, removeFromCar}){
 
     const {id, name, image, description, price} = guitar
 
